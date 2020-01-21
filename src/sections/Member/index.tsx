@@ -5,11 +5,11 @@ import {
   HeadingContainer,
   Container,
   DetailImage,
-  DetailContent,
   DetailContentContainer,
   ImageContainer
 } from '../../components/style';
 import MemberImage from '../../assets/images/member.png';
+import { DetailContent } from './style';
 
 const Member = () => (
   <>

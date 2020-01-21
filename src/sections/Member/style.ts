@@ -9,3 +9,13 @@ export const DetailContentContainer = styled.div`
   justify-content: center;
   font-family: 'Musin', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell';
 `;
+
+export const DetailContent = styled.div`
+  padding-left: 8vw;
+  @media (max-width: 500px) {
+    padding: unset;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+`;

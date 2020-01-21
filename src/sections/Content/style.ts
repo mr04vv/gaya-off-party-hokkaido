@@ -5,7 +5,7 @@ export const DetailContent = styled.div`
   padding-right: 6vw;
   @media (max-width: 500px) {
     padding: unset;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
 `;

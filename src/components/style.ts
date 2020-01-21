@@ -53,7 +53,7 @@ export const DetailContent = styled.div`
   padding-left: 8vw;
   @media (max-width: 500px) {
     padding: unset;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
   }
 `;

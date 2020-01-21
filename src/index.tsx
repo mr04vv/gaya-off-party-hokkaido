@@ -16,7 +16,10 @@ const App: React.FC = () => {
       <Content />
       <Member />
       <AllRightReserved>
-        © 2020 @akkun_dayooo All Rights Reserved. Designed by <a href="https://mooriii.com">@akkun_dayooo</a>
+        © 2020 @akkun_dayooo All Rights Reserved. Designed by{' '}
+        <a target="_blank" rel="noopener noreferrer" href="https://mooriii.com">
+          @akkun_dayooo
+        </a>
       </AllRightReserved>
     </div>
   );

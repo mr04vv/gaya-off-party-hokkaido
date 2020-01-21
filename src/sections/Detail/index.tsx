@@ -24,7 +24,10 @@ const Detail = () => (
           <p>時間： 未定</p>
           <p>金額： 未定</p>
           <p>
-            場所： <a href="https://www.covo-s1w7.com/">街中スペースcovo(予定)</a>
+            場所：{' '}
+            <a target="_blank" rel="noopener noreferrer" href="https://www.covo-s1w7.com/">
+              街中スペースcovo(予定)
+            </a>
           </p>
         </DetailContent>
       </DetailContentContainer>

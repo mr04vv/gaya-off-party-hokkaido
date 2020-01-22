@@ -4,11 +4,14 @@ import { COLOR_DARK_GRAY } from '../utils/color';
 export const HeadingContainer = styled.div``;
 
 export const Heading = styled.p`
-  font-size: 38px;
+  font-size: 48px;
   text-align: center;
   color: ${COLOR_DARK_GRAY};
   margin-bottom: 0;
   font-family: 'Handlee', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell';
+  @media (max-width: 500px) {
+    font-size: 38px;
+  }
 `;
 
 export const SubHeading = styled.p`
@@ -31,17 +34,16 @@ export const Container = styled.div`
 export const DetailContentContainer = styled.div`
   flex: 1;
   width: 50%;
-  font-size: 32px;
   display: flex;
   min-width: 560px;
   align-items: center;
-  font-family: 'Musin', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell';
+  font-size: 24px;
   @media (max-width: 1024px) {
-    font-size: 24px;
+    font-size: 18px;
     min-width: 500px;
   }
   @media (max-width: 768px) {
-    font-size: 20px;
+    font-size: 16px;
     min-width: unset;
   }
   @media (max-width: 500px) {
@@ -65,7 +67,8 @@ export const ContentTitle = styled.p`
 `;
 
 export const ContentText = styled.p`
-  padding-left: 14px;
+  line-height: 28px;
+  color: ${COLOR_DARK_GRAY};
 `;
 
 export const DetailImage = styled.img`

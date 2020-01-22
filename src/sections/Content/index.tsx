@@ -22,7 +22,8 @@ const Content = () => (
       </ImageContainer>
       <DetailContentContainer>
         <DetailContent>
-          <p>楽しむ！何か楽しいことを思いついた人はどこでもいいので言ってください！（お待ちしてます✨）</p>
+          <p>調整中...</p>
+          <p>何か楽しいことを思いついた人はどこでもいいので言ってください！（お待ちしてます✨）</p>
         </DetailContent>
       </DetailContentContainer>
     </Container>

@@ -1,8 +1,8 @@
 import React from 'react';
-import { Heading, SubHeading, HeadingContainer, Container, DetailImage, ImageContainer } from '../../components/style';
-import MemberImage from '../../assets/images/member.png';
+import { Heading, SubHeading, HeadingContainer, Container, ImageContainer } from '../../components/style';
+import MemberImage from '../../assets/images/member.jpg';
 import Secretary from '../../assets/images/kanji.jpg';
-import { DetailContent, SecretaryImage, SecretaryImageWrapper, DetailContentContainer } from './style';
+import { DetailContent, SecretaryImage, SecretaryImageWrapper, DetailContentContainer, DetailImage } from './style';
 
 const Member = () => (
   <>

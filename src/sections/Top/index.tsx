@@ -1,11 +1,13 @@
 import React from 'react';
-import { Title, SubTitle, TopContainer, ContainerOverLay } from './style';
+import { Title, SubTitle, TopContainer, ContainerOverLay, TitleContainer } from './style';
 
 const Top = () => (
   <TopContainer>
     <ContainerOverLay>
-      <Title>GAYA off party in HOKKAIDO</Title>
-      <SubTitle>わいわいガヤオフ会 in 北海道</SubTitle>
+      <TitleContainer>
+        <Title>GAYA off party in HOKKAIDO</Title>
+        <SubTitle>わいわいガヤオフ会 in 北海道</SubTitle>
+      </TitleContainer>
     </ContainerOverLay>
   </TopContainer>
 );

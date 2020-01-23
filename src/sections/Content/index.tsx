@@ -7,7 +7,7 @@ import {
   DetailContentContainer,
   ImageContainer
 } from '../../components/style';
-import ContentImage from '../../assets/images/party.png';
+import ContentImage from '../../assets/images/party.jpg';
 import { DetailContent, Container } from './style';
 
 const Content = () => (

@@ -50,3 +50,16 @@ export const SecretaryImage = styled.img`
     height: 64px;
   }
 `;
+
+export const DetailImage = styled.img`
+  width: 470px;
+  @media (max-width: 1024px) {
+    width: 370px;
+  }
+  @media (max-width: 800px) {
+    width: 320px;
+  }
+  @media (max-width: 500px) {
+    width: 75%;
+  }
+`;

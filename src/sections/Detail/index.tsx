@@ -11,7 +11,7 @@ import {
   ContentTitle,
   ContentText
 } from '../../components/style';
-import ScheduleImage from '../../assets/images/schedule.png';
+import ScheduleImage from '../../assets/images/schedule.jpg';
 
 const Detail = () => (
   <>

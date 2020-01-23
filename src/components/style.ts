@@ -72,7 +72,13 @@ export const ContentText = styled.p`
 `;
 
 export const DetailImage = styled.img`
-  width: 100%;
+  width: 370px;
+  @media (max-width: 1024px) {
+    width: 330px;
+  }
+  @media (max-width: 800px) {
+    width: 280px;
+  }
   @media (max-width: 500px) {
     width: 50%;
   }
@@ -81,6 +87,7 @@ export const DetailImage = styled.img`
 export const ImageContainer = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
   flex: 1;
   @media (max-width: 500px) {
     justify-content: center;

@@ -36,7 +36,13 @@ export const TitleContainer = styled.div`
 `;
 
 export const Title = styled.p`
-  font-size: 48px;
+  font-size: 60px;
+  @media (max-width: 1024px) {
+    font-size: 48px;
+  }
+  @media (max-width: 800px) {
+    font-size: 36px;
+  }
   margin: 0;
   text-align: center;
   color: ${COLOR_WHITE};
@@ -47,7 +53,13 @@ export const Title = styled.p`
 `;
 
 export const SubTitle = styled.p`
-  font-size: 24px;
+  font-size: 34px;
+  @media (max-width: 1024px) {
+    font-size: 28px;
+  }
+  @media (max-width: 800px) {
+    font-size: 20px;
+  }
   margin: 0;
   text-align: center;
   color: ${COLOR_WHITE};
